@@ -8,7 +8,7 @@ options(width = 200)
 ___
 #### *Authors:* Ronit Yoari & Orel Swisa  
 #### *Date*: June 12, 2016  
-#### *The Dataset [Source](https://www.kaggle.com/c/crowdflower-search-relevance)*   
+#### *[Competitions Page](https://www.kaggle.com/c/crowdflower-search-relevance)*   
 ___
 ### *Load Required Library*
 ___
@@ -155,39 +155,41 @@ ___
 ###*Results*
 ___
 #### In our solution we used:
-1. Two types of Model: *Decision Tree* & *Random Forest*
-2. Two types of methodes to generate the score
-
-___
-#### *Option 1*  
-
-Option Number  | Model           | Generate Score Type 
--------------- | ---------------------------------------
-*1*            | *Decision Tree* | 1 
+1. Two types of Model: *Decision Tree* & *Random Forest*.
+2. Two types of methodes to generate the score.
   
+___
+#### *Option 1*   
+
+Option Number  | Model           | Generate Score Type
+-------------- | ----------------|----------------------
+*1*            | *Decision Tree* | 1
+
 ![Result Option 1](https://raw.githubusercontent.com/Orelsw/Ass4/master/Option1_1223_0.24935.png)
 
 ___
-#### *Option 2*  
+#### *Option 2*   
 
-Option Number  | Model           | Generate Score Type 
--------------- | ---------------------------------------
-*2*            | *Decision Tree* | 2  
+Option Number  | Model           | Generate Score Type
+-------------- | ----------------|----------------------
+*2*            | *Decision Tree* | 2
+
+![Result Option 2](https://raw.githubusercontent.com/Orelsw/Ass4/master/Option2_1217_0.27314.png)
 
 ___
 #### *Option 3*  
 
 Option Number  | Model           | Generate Score Type 
--------------- | ---------------------------------------
-*3*            | *Random Forest* | 1 
-  
-![Result Option 3](https://raw.githubusercontent.com/Orelsw/Ass4/master/Option3_1223_0.25148.png)  
+-------------- | ----------------|----------------------
+*3*            | *Random Forest* | 1
+
+![Result Option 3](https://raw.githubusercontent.com/Orelsw/Ass4/master/Option3_1223_0.25148.png)
 
 ___
 #### *Option 4*  
-  
-Option Number  | Model           | Generate Score Type 
--------------- | ---------------------------------------
-*4*            | *Random Forest* | 2 
-  
+
+Option Number  | Model           | Generate Score Type
+-------------- | ----------------|----------------------
+*4*            | *Random Forest* | 2
+
 ![Result Option 4](https://raw.githubusercontent.com/Orelsw/Ass4/master/Option4_1172_0.32633.png)
