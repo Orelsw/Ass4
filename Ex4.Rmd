@@ -11,6 +11,7 @@ ___
 #### *The Dataset [Source](https://www.kaggle.com/c/crowdflower-search-relevance)*   
 ___
 ### *Load Required Library*
+___
 ```{r, message=FALSE}
 library(stringdist)
 library(tm)
@@ -156,31 +157,37 @@ ___
 #### In our solution we used:
 1. Two types of Model: *Decision Tree* & *Random Forest*
 2. Two types of methodes to generate the score
+
 ___
 #### *Option 1*  
+
 Option Number  | Model           | Generate Score Type 
 -------------- | ---------------------------------------
 *1*            | *Decision Tree* | 1 
-![Result Option 1]()
+  
+![Result Option 1](https://raw.githubusercontent.com/Orelsw/Ass4/master/Option1_1223_0.24935.png)
 
 ___
 #### *Option 2*  
+
 Option Number  | Model           | Generate Score Type 
 -------------- | ---------------------------------------
-*2*            | *Decision Tree* | 2 
-![Result Option 2]()
+*2*            | *Decision Tree* | 2  
 
 ___
 #### *Option 3*  
+
 Option Number  | Model           | Generate Score Type 
 -------------- | ---------------------------------------
 *3*            | *Random Forest* | 1 
-![Result Option 3]()
+  
+![Result Option 3](https://raw.githubusercontent.com/Orelsw/Ass4/master/Option3_1223_0.25148.png)  
 
 ___
 #### *Option 4*  
+  
 Option Number  | Model           | Generate Score Type 
 -------------- | ---------------------------------------
 *4*            | *Random Forest* | 2 
-![Result Option 4]()
-
+  
+![Result Option 4](https://raw.githubusercontent.com/Orelsw/Ass4/master/Option4_1172_0.32633.png)
